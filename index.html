@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+
+    
+    <title>线上平台</title>
+    <style>
+        span {
+            cursor: pointer;
+        }
+
+        span:hover {
+            background-color: white;
+        }
+
+        div>div {
+            border: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hidden {
+            display: none;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function showDiv(str) {
+            var divs = [];
+            for (var i = 0; i < 3; i++) {
+                divs[i] = document.getElementById("div" + i);
+                divs[i].style.display = "none";
+            }
+            document.getElementById(str).style.display = "block";
+        }
+        function showSubDiv(str) {
+            var subdivs = [];
+            subdivs[0] = document.getElementById("xuhuisanyecao");
+            subdivs[1] = document.getElementById("pudongfudu");
+            subdivs[2] = document.getElementById("baoshanpeizhi");
+            subdivs[3] = document.getElementById("enqibeijing");
+            subdivs[4] = document.getElementById("putuoaituofu");
+            subdivs[5] = document.getElementById("jinganaizhixin");
+            subdivs[6] = document.getElementById("caihongmama");
+            for (let i = 0; i < 7; i++) {
+                subdivs[i].style.display = "none";
+            }
+            document.getElementById(str).style.display = "block";
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="titleContainer">
+        <div onclick="showDiv('div0');">首页</div>
+        <div onclick="showDiv('div1');">机构信息</div>
+        <div onclick="showDiv('div2');">个人信息</div>
+
+    </div>
+    <hr />
+    <div>
+        <div id="div0" class="titleContent">
+            <h3 class="content1">
+                自闭症介绍
+            </h3>
+            <p class="content2">
+                孤独症（autism），又称自闭症或孤独性障碍（autistic disorder）等，是广泛性发育障碍（pervasive developmental
+                disorder，PDD）的代表性疾病。《DSM-IV-TR》将PDD分为5种：孤独性障碍、Retts综合症、童年瓦解性障碍、阿斯伯格综合征和未特定的PDD。其中，孤独性障碍与阿斯伯格综合征较为常见。孤独症的患病率报道不一，一般认为约为儿童人口的2～5/万人，男女比例约为3～4：1，男孩是女孩的3-4倍。
+            </p>
+            <br>
+            <h3 class="content1">
+                认识过程
+            </h3>
+            <p class="content2">
+                临床上首次描述孤独症是在20世纪40年代。1943年，美国医生Kanner报道了11例患者，并命名为“早期婴儿孤独症”（early infantile
+                autism）。他当时描述这个类群的患者特征如下：严重缺乏与他人的情感接触；怪异的、重复性的仪式性行为；缄默或语言显著异常；高水平的视觉——空间技巧或机械记忆能力与在其他方面学习困难形成对比；聪明、机敏且具有吸引力的外貌表现。最初，Kanner报道的这类患者被认为是儿童精神分裂症的一个亚型而未受重视。在20世纪40～60年代，又有数人描述了与Kanner报道相似的病例，并冠以各种各样的名称。当时的国际及美国精神病分类与诊断标准将这类患者归入“儿童分裂样反应”类别中
+                。对于孤独症的病因学，当时普遍认为是父母养育方式不当造成了孤独症的发生。Kanner将孤独症患儿的父母描述成一群高学历的、事业心很强但又冷漠无情的人，这一观点在当时似乎很少有异议。
+            </p>
+            <br>
+            <p class="content2">
+                20世纪60～70年代，Rutter的研究指出，孤独症的行为如果被认为是从出生到童年早期的发育障碍所致则更为合情合理。由此，逐渐把孤独症看作为是一种躯体性的、与父母抚育方式无任何关联的发育障碍。在此时期，Lotter发表了新的孤独症诊断标准，强调把社会交互作用、言语与交流和重复性活动三个方面作为基本标准，并舍弃了Kanner诊断标准中关于“特殊技能和吸引人的外貌”等两项。以后，在Lotter标准的基础上，开展了广泛的流行病学调查研究。现在所普遍接受的“孤独症发病率4～5/万”是当时最重要的研究成果。
+            </p>
+            <br>
+            <p class="content2">
+                20世纪80年代，关于孤独症的研究进入全新阶段。人们开始抛弃所谓“父母抚养方式不当”的病因假说，从生物学领域探索孤独症的病因
+                ，并在临床症状的识别和临床诊断方面将孤独症与精神分裂症彻底分开。Kolvin的研究表明，孤独症同成年精神病性障碍，尤其是成年精神分裂症没有关系。1980年出版的《DSM-Ⅲ》首次将童年孤独症视为一种广泛性发育障碍。之后，随着对孤独症研究的深入，逐步认识到孤独症是一种在一定遗传因素作用下，受多种环境因子刺激导致的弥漫性中枢神经系统发育障碍性疾病。在此认识的基础上，开展了从分子遗传到神经免疫、功能影像、神经解剖和神经化学等多方面的研究，人们试图从这些研究中找到孤独症的致病原因。仍没有任何一种假说能从根本上完美地解释孤独症的病因。
+            </p>
+            <h3 class="content1">
+                临床表现
+            </h3>
+            <p class="content2">
+                该症一般起病于36个月以内，主要表现为三大类核心症状，即：社会交往障碍、交流障碍、兴趣狭窄和刻板重复的行为方式。
+            </p>
+
+            <h3 class="content1">
+                自闭症志愿者培训
+            </h3>
+            <h4 class="content1">
+                服务自闭症儿童追求的长期目标
+            </h4>
+
+            <ol class="content2">1. 发展基本的语言技能、有能力与他人进行简单沟通</ol>
+            <ol class="content2">2. 家庭成员发展对儿童能力的全面接纳、对儿童的行为有现实的渴望</ol>
+            <ol class="content2">3. 父母熟悉儿童的能力、长处和局限，促进儿童实现目标的能力</ol>
+            <ol class="content2">4. 有规律地、稳定地参与与他人的相互的、合作的相互作用</ol>
+            <ol class="content2">5. 使情绪变得稳定，能接纳环境和例行事情的变化</ol>
+            <ol class="content2">6. 排除自我虐待行为</ol>
+            <ol class="content2">7. 获得和维持独立生活的能力</ol>
+            <h4 class="content1">
+                志愿者设计一些培养自闭症儿童的教育项目:
+            </h4>
+            <p class="content2">
+                1. 培养简单的智慧能力和言语能力：如分类、组合、排序、为题的功能等<br>
+                2. 任务不能太复杂：可以将要学习的任务分解为小任务<br>
+                3. 使用视觉指导和言语指导，例如图画和言语组合 <br>
+                4. 教育过程接纳儿童的自我刺激行为，如扭动、摇头等<br>
+            </p>
+            <h4 class="content1">
+                志愿者帮助发展社交能力：
+            </h4>
+            <p class="content2">
+                1. 社交能力与语言、认知理解等能力相关<br>
+                2. 临床心理学家研究过的自闭症儿童社交行为<br>
+                指向或展示物体：共同注意（joint attention）：理解他人观点的能力（theory of mind）
+                3. 方法： 帮助同伴理解自闭症儿童的问题：建立同伴小组，让自闭症儿童指导比自己小的儿童，或者好朋友配对；自闭症儿童组成小组，教导如何发起和维持谈话、如何对对话做出反应、如何祝贺别人、如何分享等 <br>
+                视频示范：用图片说明要学习的行为，然后用视频展示这个行为
+                <br>
+                现场示范：成人示范社会生活情境，然后儿童角色扮演相应角色
+            </p>
+            <br><br><br>
+            <hr />
+            <h2 class="contentCentering">
+                欢迎关注我们的公众号：
+            </h2>
+            <div class="avatorContainer">
+                <img src="守护星星的孩子公众号.png" class="figure" />
+            </div>
+
+        </div>
+        <div id="div1" class="titleContent">
+            <div class="buttonVertical">
+                <div onclick="showSubDiv('xuhuisanyecao');">上海徐汇区三叶草儿童康健园</div>
+                <br>
+                <div onclick="showSubDiv('pudongfudu');">浦东新区辅读学校</div>
+                <br>
+                <div onclick="showSubDiv('baoshanpeizhi');">上海市自闭症儿童教育指导中心 </div>
+                <br>
+                <div onclick="showSubDiv('enqibeijing');">上海市自闭症儿童教育指导中心 </div>
+                <br>
+                <div onclick="showSubDiv('putuoaituofu');">上海普陀区爱托付关爱服务中心 </div>
+                <br>
+                <div onclick="showSubDiv('jinganaizhixin');">上海静安“爱之星”社会监护服务中心 </div>
+                <br>
+                <div onclick="showSubDiv('caihongmama');">彩虹妈妈家庭关爱中心 </div>
+            </div>
+
+            <div>
+                <div id="xuhuisanyecao" class="content3">
+
+                    <p>简称：上海三叶草 已认证</p>
+                    <p>机构名：上海徐汇区三叶草儿童康健园</p>
+                    <p>成立时间:2013年02月05日</p>
+                    <p>负责人：任瑞杰</p>
+                    <p>性质：民办康复机构</p>
+                    <p>优势课程：社交训练 | 认知理解 | 沟通理解</p>
+                    上海徐汇区三叶草儿童康健园成立于2007年5月，并于2013年2月正式成为NGO组织，是徐汇区民政局下属的民办非企业单位，是一家主要为孤独症谱系障碍儿童提供康复训练并为其家庭提供相关辅导的专业机构，是上海市残疾人联合会定点康复机构。
+
+                    机构一直积极与国内外知名康复训练机构保持良好的研究交流关系，在自闭症康复领域具有领先地位。机构成立至今，累计为近千名自闭症儿童进行了康复训练，其中大约30%-40%的儿童得以进入学校学习，得到了广大家长的认可及好评。
+
+                    机构会为学员进行专业评估，并根据评估结果量身制定个性化训练方案，训练内容包括认知与语言、人际交往、注意力、学业、精细动作、生活自理等方面，并指导家长配合老师进行家庭训练，提高学员的认知与人际交往等能力，使学员具备进入普通幼儿园或小学学习的基本能力，能够更好地融入社会。
+
+                    园区占地近800平方米，拥有独栋教学楼及宽阔的户外活动场地，教学设施齐全，提供个别训练室、集体课室、运动室、活动室等多种功能的教室用于开展训练，并设有个别化训练、集体课、幼儿园融合、幼小衔接等丰富多彩的课程。
+
+                    我们一直信守“理解、支持、专业、进步”的价值观，秉承着为星宝创造更多可能的使命，为孩子创未来，为家庭谋希望，为让星宝能够更和谐的融入社会的愿景而不断地努力着！
+                    <br>
+
+                    <a href="http://www.ingclass.org/static_page/web/sanyecao.html">官网地址</a>
+                    <br>
+                    <div style="text-align:center; width:100%;height:100%;margin:0px; ">
+                        <button id="btn1"
+                            style="font-size:1em; width: 20%;height: 5%;background-color:bisque">报名</button>
+                    </div>
+                </div>
+                <div id="pudongfudu" class="content3">
+                    <p>简称：上海市浦东新区辅读学校</p>
+                    <p>机构名：上海市浦东新区辅读学校</p>
+                    <p>负责人：王英</p>
+                    <p>区域：上海,浦东新区</p>
+                    <p>性质：公办特殊学校 | 公办融合学校 | 事业单位 | 残联定点机构
+                    <p>优势课程：社交训练 | 认知理解 | 沟通理解 | 感觉统合 | 言语训练 | 就业技能 | 特殊教育</p>
+                    上海市浦东新区辅读学校是一所对智力残疾儿童青少年实施九年义务教育与康复训练以及初级职业技术培训的特殊教育学校。
+
+                    学校分设陆家嘴、上南和忠华初职三个校区，现有教职员工92人，8岁至18岁各类智障学生近500名。学校在“让每一位智障孩子得到最优发展”的办学理念指导下，努力把学校办成智障孩子求知学技的乐园、康复启智的家园、强身健体的花园，成为智障孩子家长所期望的一所好学校。近年来，在上级政府的大力支持、社会各界的热心关注以及全校教职员工的齐心努力下，学校各项成绩卓著，先后荣获全国助残先进集体、上海市文明单位、上海市特奥工作先进集体、上海市爱心助老特色基地、新区文明单位等多项称号；特奥运动发展组荣获上海市五一巾帼奖；大队部荣获浦东新区红旗中队；团支部荣获上海市优秀青年突击队等称号；多名教师获得全国、市、区级先进。
+
+                    学校加强对智障学生进行分层教育、个别化教育及职业技术培训教育，培养他们适应社会、融入社会的能力，大力开发特奥运动，学校特奥曲棍球、乒乓球、体操、轮滑等项目在国际、国家、市级比赛中获得多项荣誉。2007年世界夏季特殊奥林匹克运动会上，学校排球、体操、舞龙、皮划艇运动员代表国家队参加了比赛，获得了四个项目共计38枚金牌的优异成绩，是参加特奥会获金牌数最多的集体，展示了智障学生的顽强精神，也赢得了良好的社会声誉。学校还积极推行特奥领袖培养的计划,培养了世界特奥信使徐闯，全球特奥领袖乔美丽等一批优秀的特奥运动员，为实现创建和谐社会环境和富有个性的辅读学校教育品牌做出了不懈的努力。
+
+                    浦东新区辅读学校的全体教师用真诚的爱心、执著的精神、坚定的信念、务实的行动去追求特殊教育的最高境界，让特殊孩子收获成功，享受幸福。
+                    <br>
+
+                    <a
+                        href="https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E8%BE%85%E8%AF%BB%E5%AD%A6%E6%A0%A1/7791186">暂无学校官网</a>
+                    <br>
+                    <div style="text-align:center; width:100%;height:100%;margin:0px; ">
+                        <button id="btn2"
+                            style="font-size:1em; width: 20%;height: 5%;background-color:bisque">报名</button>
+                    </div>
+                </div>
+                <div id="baoshanpeizhi" class="content3">
+                    <p>简称：上海市宝山区培智学校 已认证</p>
+                    <p>机构名：上海市宝山区培智学校</p>
+                    <p>负责人：沈志萍</p>
+                    <p>区域：上海,宝山区</p>
+                    <p>性质：公办特殊学校 | 公办融合学校 | 事业单位</p>
+                    <p>优势课程：社交训练 | 认知理解 | 沟通理解 | 感觉统合 | 言语训练 | 融合课程 | 幼小衔接 | 特殊教育</p>
+                    <br>
+                    <div style="text-align:center; width:100%;height:100%;margin:0px; ">
+                        <button id="btn3"
+                            style="font-size:1em; width: 20%;height: 5%;background-color:bisque">报名</button>
+                    </div>
+                </div>
+                <div id="enqibeijing" class="content3">
+                    <p>简称：上海恩启 已认证</p>
+
+                    <p>机构名：上海恩启健康管理有限公司</p>
+
+                    <p>成立时间：2020年01月14日</p>
+
+                    <p>负责人：陆维妍</p>
+
+                    <p>区域：上海,静安区</p>
+
+                    <p>性质：民办康复机构</p>
+
+                    <p>优势课程：社交训练 | 认知理解 | 沟通理解 | 感觉统合 | 言语训练 | ABA训练</p>
+                    <br>
+                    <div style="text-align:center; width:100%;height:100%;margin:0px; ">
+                        <button id="btn4"
+                            style="font-size:1em; width: 20%;height: 5%;background-color:bisque">报名</button>
+                    </div>
+                </div>
+                <div id="putuoaituofu" class="content3">
+                    暂无相关信息
+                </div>
+                <div id="jinganaizhixin" class="content3">
+                    暂无相关信息
+                </div>
+                <div id="caihongmama" class="content3">
+                    暂无相关信息
+                </div>
+                <script src="info.js" defer></script>
+            </div>
+        </div>
+        <div id="div2" class="titleContent">
+            <p id ="name", style= "text-align: center;"></p>;
+            <p id ="grade", style= "text-align: center;"></p>;
+            <p id ="credit", style= "text-align: center;"></p>;
+            <p id ="hour", style= "text-align: center;">学分：</p>;
+            <p id ="program", style= "text-align: center;">已报名的志愿者项目：</p>;
+            <script src="view.js" defer></script>
+
+        </div>
+    </div>
+    <div>
+        
+    </div>
+</body>
+
+</html>
