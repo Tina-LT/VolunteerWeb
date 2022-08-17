@@ -41,6 +41,7 @@ element2.addEventListener("click", func2);
 element3.addEventListener("click", func3);
 element4.addEventListener("click", func4);
 
+/*
 const getUsrName = () => {
     return usrname;
 }
@@ -56,3 +57,4 @@ const getCredit = () => {
 const getHour  = () =>{
     return hour;
 }
+*/
